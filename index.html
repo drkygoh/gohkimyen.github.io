@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Dr. Goh Kim Yen — Consultant Clinical Haematologist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--red:#c92b2b;--dark:#2b2b2b;--muted:#666}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, -apple-system, Arial, sans-serif;margin:0;color:var(--dark);background:#fff}
+.header{background:linear-gradient(90deg, rgba(201,43,43,0.95), rgba(185,25,25,0.95));color:#fff;padding:28px 16px;display:flex;align-items:center;gap:18px}
+.header img.logo{width:84px;height:84px;object-fit:cover;border-radius:8px;border:3px solid rgba(255,255,255,0.12)}
+.header .title{font-size:20px;font-weight:700}
+.nav{background:#fff;padding:10px 16px;display:flex;gap:12px;justify-content:center;border-bottom:1px solid #eee;position:sticky;top:0;z-index:20}
+.nav a{color:var(--red);text-decoration:none;font-weight:600}
+.container{max-width:980px;margin:28px auto;padding:0 16px}
+.hero{display:grid;grid-template-columns:1fr 320px;gap:20px;align-items:center}
+.hero h1{font-size:28px;margin:0 0 8px}
+.card{background:#fff;border:1px solid #eee;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.04)}
+.profile-photo{width:100%;border-radius:10px;object-fit:cover}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:14px}
+.service{padding:14px;border-radius:8px;background:linear-gradient(180deg,rgba(255,255,255,0.98),#fff);border:1px solid rgba(0,0,0,0.06)}
+.footer{background:#111;padding:18px;color:#ddd;text-align:center;margin-top:24px}
+.contact-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:6px}
+@media(max-width:880px){.hero{grid-template-columns:1fr;}.header{padding:18px}.header img.logo{width:64px;height:64px}}
+</style>
+</head>
+<body>
+<header class="header">
+  <img class="logo" src="assets/profile.jpg" alt="Dr Goh Kim Yen">
+  <div>
+    <div class="title">Dr. Goh Kim Yen — Consultant Clinical Haematologist</div>
+    <div style="opacity:0.9;margin-top:6px">Expert in diagnosis & treatment of blood disorders</div>
+  </div>
+</header>
+<nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<main class="container">
+  <section class="hero card">
+    <div>
+      <h1>Welcome — Dr. Goh Kim Yen</h1>
+      <p style="color:var(--muted)">Consultant Clinical Haematologist with years of experience in diagnosing and treating blood disorders including lymphoma, anemia, and clotting disorders. Compassionate care, evidence-based treatment.</p>
+      <p><strong>Clinic contact:</strong> 03-42895000 ext 4478 &nbsp; • &nbsp; <strong>WhatsApp:</strong> 011-5423 1300</p>
+      <p style="margin-top:12px"><a href="services.html" style="background:var(--red);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700">View Services</a></p>
+    </div>
+    <aside style="text-align:center">
+      <img src="assets/profile.jpg" alt="Profile photo" class="profile-photo card">
+      <p style="margin-top:8px;font-weight:700">Dr. Goh Kim Yen — Consultant Clinical Haematologist</p>
+      <p style="color:var(--muted);margin-top:6px">"Care for Life"</p>
+    </aside>
+  </section>
+
+  <section style="margin-top:18px">
+    <div class="card">
+      <h2 style="margin-top:0">About</h2>
+      <p>Dr. Goh Kim Yen specialises in clinical haematology with a focus on patient-centred diagnosis and personalised treatment plans. She leads clinics, participates in multidisciplinary care, and is experienced in both outpatient and inpatient haematology management.</p>
+    </div>
+  </section>
+
+  <section style="margin-top:18px">
+    <div class="card">
+      <h2 style="margin-top:0">Latest Presentation</h2>
+      <div style="display:flex;gap:12px;align-items:center">
+        <img src="assets/banner.jpg" alt="Presentation banner" style="width:220px;border-radius:8px;object-fit:cover;border:1px solid #eee">
+        <div><strong>Limfoma — Early presentation and management</strong><br/><small style="color:var(--muted)">Public talk at KPJ Ampang Puteri</small></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  © 2025 Dr. Goh Kim Yen — Consultant Clinical Haematologist
+</footer>
+</body>
+</html>
